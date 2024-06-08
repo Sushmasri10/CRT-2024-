@@ -1,0 +1,23 @@
+SUM OF ODD DIGITS HACKERRANK
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int n,sum=0,rem;
+    scanf("%d",&n);
+    while(n>=1){
+        
+            rem =n%10;
+             n=n/10;
+        if(rem%2!=0){
+            sum=sum+rem;
+        
+        }
+    }
+    printf("%d",sum);
+    return 0;
+}
