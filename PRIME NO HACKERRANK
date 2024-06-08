@@ -15,3 +15,11 @@ int main() {
             if(i%j==0)
        c++;
         }
+ if(c==2){
+            printf("%d ",i);
+            
+        
+    }
+    }
+    return 0;
+}
