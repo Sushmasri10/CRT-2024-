@@ -1,6 +1,7 @@
 INDIRECT RECURSION
 
 #include <stdio.h>
+void funB(int);
 void funA(int n){
     if(n>0){
         printf("%d ",n);
