@@ -5,8 +5,7 @@ STRING CONCATENATION
 
 int main() {
     char str1[50],str2[50];
-    int i;
-  scanf("%s",str1);
+    scanf("%s",str1);
   scanf("%s",str2);
    strcat(str1,str2);
    printf("%s",str1);
